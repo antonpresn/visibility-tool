@@ -4,12 +4,12 @@ Tool providing simple visibility dependencies resolving to use in UI interfaces.
 usage:
 Let's imagine the user interface with some fields to fill. 
 For example user registration form with some options.
-  Username
-  Firstname
-  Lastname
-  Phone
-  Country (list of countries)
-  and optionally we have  fields which are dependent from Country
+ * Username
+ * Firstname
+ * Lastname
+ * Phone
+ * Country (list of countries)
+ * and optionally we have  fields which are dependent from Country
     if country is USA then additionally ask for address information
       
 The core idea is simple 
