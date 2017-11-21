@@ -1,7 +1,7 @@
 # visibility-tool
 Tool providing simple visibility dependencies resolving to use in UI interfaces. rbac systems (describing roles) , etc
 
-usage:
+# Usage
 Let's imagine the user interface with some fields to fill. 
 For example user registration form with some options.
  * Username
@@ -39,3 +39,7 @@ The core idea is simple
 ```js    
     var v = getVisibility(fieldsValues, visMap);
 ```
+# Explanation
+
+# Note
+This is just an example of code - not an extension for Yii2. Maybe some day it would grow up to be an extension.
