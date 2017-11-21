@@ -39,6 +39,16 @@ The core idea is simple
 ```js    
     var v = getVisibility(fieldsValues, visMap);
 ```
+ 5. The result of `getVisibility` of initial state in our example will be:
+```php
+  $visibleFields = [
+    'Username' => true,
+    'Firstname' => true,
+    'Lastname' => true,
+    'Phone' => true,
+    'Address' => false
+  ];
+```
 # Explanation
    The visibility map is built like "stairs".
  Visible elements are always on top above level of "0".
